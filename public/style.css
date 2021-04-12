@@ -1,0 +1,158 @@
+
+body{
+    margin:0;
+    /* width: 100vw; */
+}
+ul{
+    padding-left:0;
+}
+
+
+nav{
+    background-color: rgb(48,64,88);
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px red solid;
+    
+  
+    
+}
+.listenav1{
+    border: 1px red solid;
+   
+}
+.listenav1>ul{
+    color:white;
+    list-style: none;
+}
+
+.listenav2{
+display: flex;
+align-items: center;
+border: 1px red solid;
+width: 30%;
+}
+
+
+
+.listenav2>ul{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    list-style: none;
+    font-size: 10px;
+    width: 100%;
+}
+
+
+
+/* banner */
+
+.fondrouge{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(224,52,68);
+    width: 100%;
+    height: 300px;
+}
+.logobanner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.maintitle>h1,h6{
+    text-align: center;
+    color: white;
+    margin:8px;
+}
+
+/* Media queries: barre de navagation */
+
+@media(min-width:320px) and (max-width:600px){
+    nav{
+        width: 100%;
+    }
+    .listenav1{
+
+    }
+
+    .listenav2{
+       width: 40%;
+    }
+    .listenav1>ul{
+        color:white;
+        list-style: none;
+        font-size: 10px
+    }
+    .listenav2>ul{
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        list-style: none;
+        font-size: 6px;
+        width: 100%;
+    }
+}
+
+
+
+@media(min-width:601px) and (max-width:1024px){
+    nav{
+        width: 100%;
+    }
+
+    .listenav1{
+
+    }
+
+    .listenav2{
+       width: 40%;
+    }
+    .listenav1>ul{
+        color:white;
+        list-style: none;
+        font-size: 20px;
+    }
+    .listenav2>ul{
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        list-style: none;
+        font-size: 14px;
+        width: 100%;
+    }
+
+
+}
+@media(min-width:1024px){
+    nav{
+        width: 100%;
+    }
+
+    .listenav1{
+
+    }
+
+    .listenav2{
+       width: 40%;
+    }
+    .listenav1>ul{
+        color:white;
+        list-style: none;
+        font-size: 40px;
+    }
+    .listenav2>ul{
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        list-style: none;
+        font-size: 24px;
+        width: 100%;
+    }
+
+
+}
